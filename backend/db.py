@@ -23,6 +23,7 @@ class Submission(db.Model):
     tech_stack = db.Column(db.String(200), nullable=False)
     status = db.Column(db.String(20), default='Pending')
     score = db.Column(db.Integer, nullable=True)
+    file_path = db.Column(db.String(200), nullable=True) 
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 

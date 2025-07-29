@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa;
+}
+.bg-bronze {
+  background-color: #cd7f32;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+.badge.bg-warning, .badge.bg-secondary, .badge.bg-bronze {
+  font-size: 1.2rem;
+}
+.hero {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+  padding: 3rem;
+  border-radius: 10px;
+  text-align: center;
+}
